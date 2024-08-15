@@ -1,0 +1,23 @@
+.adminpage__header {
+    background-color: #ffffff;
+    z-index: 1;
+}
+
+.adminpage__header-inner h1 {
+    color: #151515;
+}
+
+.adminpage__notification svg {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.adminpage__notification {
+    background-color: #bfbfbf;
+    outline: none;
+    border: none;
+}
+
+.adminpage__profile-icon {
+    background-color:#bfbfbf;
+}

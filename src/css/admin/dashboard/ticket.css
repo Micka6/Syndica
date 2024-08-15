@@ -1,0 +1,17 @@
+.adminpage_ticket-time{
+    color: #b5b5b5;
+}
+
+.span-ticket{
+    color: black;
+}
+.adminpage__ticket-holder{
+ transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.adminpage__ticket-holder:hover,
+.adminpage__ticket-holder:active {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    
+}

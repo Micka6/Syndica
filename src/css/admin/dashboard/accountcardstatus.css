@@ -1,0 +1,14 @@
+.adminpage__accounttotal-status{
+    background-color: #ededed;
+}
+
+.adminpage__accountcard-status {
+    transition: background-color 0.3s, border-radius 0.3s;
+}
+
+.adminpage__accountcard-status:hover,
+.adminpage__accountcard-status:active {
+    background-color: #d4d4d4;
+    border-radius: 10px;
+    padding: 15px;
+}

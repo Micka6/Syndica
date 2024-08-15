@@ -1,0 +1,48 @@
+:root {
+    --sidebarText: #7797ab;
+} 
+
+.adminpage__sideBar {
+    background-color: #151515;
+    z-index: 2;
+}
+
+.adminpage__sideBar-logo-region{
+    color: #ffffff;
+}
+
+.adminpage__sideBar-logo-usertype{
+    color: #5C5C5C;
+}
+
+hr {
+    opacity: 0.2;
+}
+
+.adminpage__sideBar p {
+    color: #656565;
+}
+
+.adminpage__sideBar-vector {
+    fill: #ABABAB;
+}
+
+.adminpage__sideBar-item {
+    transition: all 0.3s ease-out;
+}
+
+.adminpage__sideBar-item:hover {
+    background-color: var(--primary);
+}
+
+.adminpage__sideBar-item:hover 
+.adminpage__sideBar-vector {
+    fill:  #151515;
+}
+
+.adminpage__sideBar-item:hover p{
+    color: var(--secondary);
+    font-weight: 600;
+}
+
+

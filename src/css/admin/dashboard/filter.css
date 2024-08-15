@@ -1,0 +1,33 @@
+.adminpage__filter-container {
+    position: relative; /* Ensure the dropdown is positioned relative to this container */
+    background-color: #f0f0f0;
+    border-radius: 5px;
+  }
+  
+  .adminpage__filter-dropdown {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    top: 100%; /* Position below the filter container */
+    left: 0;
+    z-index: 1;
+    width: 90px;
+  }
+  
+  .adminpage__filter-dropdown a {
+    display: block; /* Ensure each link is displayed as a block */
+    padding: 10px; /* Add padding for better spacing */
+    color: #000; /* Set link color */
+    text-decoration: none; /* Remove underline */
+  }
+  
+  .adminpage__filter-dropdown a:hover {
+    background-color: #ddd;
+  }
+  
+  .adminpage__filter-container:hover .adminpage__filter-dropdown {
+    display: block;
+  }
+  

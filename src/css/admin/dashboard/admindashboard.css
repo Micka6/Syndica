@@ -1,0 +1,11 @@
+.adminpage__totalcard-container,
+.adminpage__accountcard-container,
+.adminpage__summarycard-container {
+  background-color: #ffffff;
+}
+
+.adminpage__card-title div {
+  width: 1.5rem;
+  height: 1.5rem;
+  background-color: red;
+}

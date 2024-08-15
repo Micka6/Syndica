@@ -1,0 +1,52 @@
+@media only screen and (max-width: 1520px) {
+  .adminpage__content-container {
+    overflow-y: scroll !important;
+  }
+
+  .adminpage__dashboard-container {
+    flex-direction: column !important;
+    height: auto;
+    gap: 25px;
+  }
+  .adminpage__col {
+    width: 100% !important;
+    height: auto !important;
+  }
+  .adminpage__total-container {
+    height: auto !important;
+    justify-content: center !important;
+    gap: 10px;
+  }
+
+  .adminpage__totalcard-container {
+    height: 104px !important;
+  }
+
+  .adminpage__voucher-container {
+    height: auto !important;
+    justify-content: center !important;
+    gap: 10px;
+  }
+  .adminpage__summarycard-container{
+    height: 178px !important;
+  }
+  .adminpage__accountcard-status{
+    width: 10.45rem !important;
+  }
+
+  .adminpage__accounttotal-status{
+    padding: 5px;
+    justify-content: center !important;
+    gap: 1rem;
+  }
+  .hr {
+  border: none;
+  height: 1px;
+  background-color: #ccc;
+  margin: 20px 0;
+}
+
+}
+
+@media only screen and (max-width: 720px) {
+}
